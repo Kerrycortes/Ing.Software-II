@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #1f2d3d;
+    padding: 100px;
+    color: #e8f0f7;
+}
+
+.logo-izquierda {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: auto;
+  z-index: 1000;
+  border-radius: 10px; /* Redondea las esquinas */
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #4db8ff; /* azul llamativo */
+}
+
+#form-container, table {
+    background: #2a3f54;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #0e1a26, -10px -10px 20px #354b60;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #cceeff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background: #1f2d3d;
+    box-shadow: inset 5px 5px 10px #0e1a26, inset -5px -5px 10px #354b60;
+    font-size: 14px;
+    color: #e8f0f7;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 15px;
+    background: #4db8ff;
+    color: #1f2d3d;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #0e1a26, -5px -5px 15px #354b60;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #33aaff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #3e5972;
+    color: #e8f0f7;
+}
+
+#message {
+    margin-top: 20px;
+    color: #44ff88;
+    text-align: center;
+}
